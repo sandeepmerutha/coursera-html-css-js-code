@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+	font-family: "Times New Roman", Times, serif;
+}
+body{
+	margin: 0;
+	padding: 0px;
+}
+h1{
+	
+	margin-bottom: 30px;
+}
+
+#box {
+	background-color: #C0C0C0;
+	border: 1px solid black;
+	margin: 30px;
+	}
+
+#head1{
+	background-color: pink;
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	width: 30%;
+}
+
+#head2{
+	background-color: #ff704d;
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	width: 30%;
+}
+
+#head3{
+	background-color: #e6ac00 ;
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	width: 30%;
+}
+
+section{
+clear: right;
+padding: 30px;
+}
+
+#header-nav{
+	background-color:#DCDCDC;
+	border-radius: 0;
+	border:0;
+}
+
+#name_restaurent{
+	color: black;
+	font-size: 30px;
+}
+
+/*********Large-devices***************/
+
+@media(min-width:991px )
+{
+#box{
+	
+}
+
+}
+
+
+/***********medium-devices************/
+
+@media(max-width: 991px)and (min-width:768px ) 
+{
+	#box.full{
+	
+}
+#box{
+	
+}
+}
